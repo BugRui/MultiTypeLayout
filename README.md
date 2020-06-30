@@ -29,3 +29,23 @@ Because MultiTypeLayout only USES compileOnly internally and relies on appCompat
 ### 使用(use)
 
 #### 在Xml中配置 Configure in Xml
+```
+<com.bugrui.library.MultiTypeLayout
+        android:id="@+id/multiTypeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:contentLayout="@layout/layout_content"
+        app:emptyLayout="@layout/layout_empty"
+        app:errorLayout="@layout/layout_error"
+        app:loadingLayout="@layout/layout_loading"
+        app:noNetworkLayout="@layout/layout_no_network" />
+
+```
+
+#### 自身配置 Its configuration
+
+```
+
+
+```
