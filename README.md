@@ -24,7 +24,7 @@ allprojects {
 Because MultiTypeLayout only USES compileOnly internally and relies on appCompat, you need to add the following dependencies to your project otherwise compileOnly will not pass
 
 ```
- implementation "androidx.appcompat:appcompat:tag"
+ implementation "androidx.appcompat:appcompat:latest.integration"
 ```
 
 ### 使用(use)
