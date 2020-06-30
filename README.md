@@ -1,7 +1,3 @@
-# MultiTypeLayout
-多类型布局快速切换View，支持内容视图，加载中视图，空视图，异常视图，无网络视图，Multi-type layout quick switch View, support content View, load View, empty View, exception View, no network View
-
-
 
 # MultiTypeLayout [![version](https://jitpack.io/v/BugRui/MultiTypeLayout.svg)](https://jitpack.io/#BugRui/MultiTypeLayout/1.0.0)
 
