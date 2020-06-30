@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--多种状态切换布局-->
+    <declare-styleable name="MultiTypeLayout">
+        <attr name="loadingLayout" format="reference" />
+        <attr name="errorLayout" format="reference" />
+        <attr name="emptyLayout" format="reference" />
+        <attr name="noNetworkLayout" format="reference" />
+        <attr name="contentLayout" format="reference" />
+    </declare-styleable>
+</resources>
