@@ -16,7 +16,7 @@ allprojects {
 ```
 ####  Step 2. Add the dependency
 ```
-   implementation 'com.github.BugRui:MultiTypeLayout:1.0.0''
+   implementation 'com.github.BugRui:MultiTypeLayout:1.0.1''
  
 ```
 因为MultiTypeLayout只在内部使用compileOnly，并且依赖于appCompat，所以需要将以下依赖项添加到自己的项目中，否则compileOnly将无法通过打包
