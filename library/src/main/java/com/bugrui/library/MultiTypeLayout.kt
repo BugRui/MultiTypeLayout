@@ -71,10 +71,10 @@ class MultiTypeLayout @JvmOverloads constructor(
         )
     }
 
-    override fun onDetachedFromWindow() {
-        super.onDetachedFromWindow()
-        removeAllViews()
-    }
+//    override fun onDetachedFromWindow() {
+//        super.onDetachedFromWindow()
+//        removeAllViews()
+//    }
 
     private fun addHideView(view: View, index: Int, params: LayoutParams? = null) {
         view.visibility = View.GONE
